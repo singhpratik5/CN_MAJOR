@@ -5,8 +5,8 @@
 ### Amplitude Modulation (AM)
 - **Definition:** The amplitude of the carrier signal is varied in proportion to the message (baseband) signal.
 - **Formula:**
-  - Modulated signal: \( s(t) = [A_c + m(t)] \cos(2\pi f_c t) \)
-    - Where \( A_c \) = carrier amplitude, \( m(t) \) = message signal, \( f_c \) = carrier frequency
+  - Modulated signal: s(t) = [Ac + m(t)] × cos(2πfct)
+    - Where Ac = carrier amplitude, m(t) = message signal, fc = carrier frequency
 - **Diagram (text):**
   - Message:      ~~~~~~
   - Carrier:      /\/\/\/\/\
@@ -16,16 +16,16 @@
 ### Frequency Modulation (FM)
 - **Definition:** The frequency of the carrier signal is varied by the message signal.
 - **Formula:**
-  - \( s(t) = A_c \cos[2\pi f_c t + 2\pi k_f \int m(\tau) d\tau] \)
-    - Where \( k_f \) = frequency sensitivity
+  - s(t) = Ac × cos[2πfct + 2πkf × ∫m(τ)dτ]
+    - Where kf = frequency sensitivity
 - **Advantages:** Less susceptible to noise than AM
 - **Applications:** FM radio, audio transmission
 
 ### Phase Modulation (PM)
 - **Definition:** The phase of the carrier signal is varied by the message signal.
 - **Formula:**
-  - \( s(t) = A_c \cos[2\pi f_c t + k_p m(t)] \)
-    - Where \( k_p \) = phase sensitivity
+  - s(t) = Ac × cos[2πfct + kp × m(t)]
+    - Where kp = phase sensitivity
 - **Applications:** Used in digital modulation schemes (e.g., PSK)
 
 ### ADSL (Asymmetric Digital Subscriber Line)
@@ -76,9 +76,11 @@
 - **Disadvantage:** Variable delay, possible packet loss
 
 ## 4. Important Formulas
-- **Nyquist Bit Rate:** \( Bit\ Rate = 2 \times Bandwidth \times \log_2(L) \)
+- **Nyquist Bit Rate:**
+  - Bit Rate = 2 × Bandwidth × log2(L)
   - Where L = number of signal levels
-- **Shannon Capacity:** \( C = B \log_2(1 + S/N) \)
+- **Shannon Capacity:**
+  - C = B × log2(1 + S/N)
   - Where C = channel capacity, B = bandwidth, S/N = signal-to-noise ratio
 
 ## 5. Example Questions
